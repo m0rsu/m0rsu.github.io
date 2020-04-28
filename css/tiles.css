@@ -1,0 +1,151 @@
+.tiles {
+  filter: brightness(100%);
+}
+
+.tiles-wrapper {
+  margin-top: -100px;
+  background: rgba(0, 0, 0, 0);
+  z-index: 11111;
+}
+
+@media (max-width: 320px) {
+    .tiles-wrapper {
+        margin-top: unset;
+      }
+    }
+
+.tiles-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .tiles-row {
+        flex-direction: column;
+    }
+}
+
+.tiles-column {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 0;
+  margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+  .tiles-column {
+    margin-left: unset;
+  }
+}
+
+.tiles-first-column {
+  background-color: #fb414e;
+  height: 400px;
+  width: 400px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+}
+
+@media (max-width: 991px) {
+    .tiles-first-column {
+        height: 350px;
+        width: 350px;
+        margin-bottom: 20px;
+      }
+}
+
+@media (max-width: 320px) {
+    .tiles-first-column {
+        height: 400px;
+        width: 300px;
+        margin-bottom: unset;
+        margin-top: 20px;
+      }
+}
+
+.tiles-second-column {
+  background-color: #202b30;
+  height: 400px;
+  width: 400px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+}
+
+@media (max-width: 991px) {
+    .tiles-second-column {
+        height: 350px;
+        width: 350px;
+        margin-bottom: 20px;
+      }
+}
+
+@media (max-width: 320px) {
+    .tiles-second-column {
+        height: 400px;
+        width: 300px;
+        margin-bottom: unset;
+        margin-top: 20px;
+      }
+}
+
+.tiles-third-column {
+  background-color: #202b30;
+  height: 400px;
+  width: 400px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+}
+
+
+@media (max-width: 991px) {
+    .tiles-third-column {
+        height: 350px;
+        width: 350px;
+        margin-bottom: 20px;
+      }
+}
+
+@media (max-width: 320px) {
+    .tiles-third-column {
+        height: 400px;
+        width: 300px;
+        margin-bottom: unset;
+        margin-top: 20px;
+      }
+}
+
+.tiles-column-image {
+  width: 60px;
+  height: 65px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 991px) {
+    .tiles-column-image {
+        margin-bottom: 10px;
+      }
+      
+}
+
+.tiles-column-text-header {
+  font-size: 20px;
+  color: white;
+}
+
+.tiles-column-hr {
+  width: 15%;
+  float: left;
+  border: 0.1em solid white;
+}
+
+.tiles-column-text-description {
+  color: white;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: justify;
+  font-family: "Source Sans Pro", sans-serif;
+}

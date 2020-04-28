@@ -1,0 +1,32 @@
+.container {
+    width: 1000px;
+    margin-top: -180px;
+    max-width: 100%;
+    padding: 60px 20px;
+}
+
+.container-tiles {
+    width: 400px;
+    max-width: 100%;
+    padding: 70px 50px;
+}
+
+@media (max-width: 991px) {
+    .container-tiles {
+        width: 350px;
+        max-width: 100%;
+        padding: 35px 50px;
+    }
+}
+
+.container-contact {
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+    .container-contact {
+    width: 100vw;
+    }
+}

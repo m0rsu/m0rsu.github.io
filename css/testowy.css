@@ -1,0 +1,117 @@
+<div class='some-page-wrapper'>
+        <div class='row'>
+          <div class='column'>
+            <div class='orange-column'>
+              <img src="/gallery/1.jpg" class="gallery-image">
+            </div>
+          </div>
+          <div class='column'>
+            <div class='blue-column'>
+              <img src="/gallery/2.jpg" class="gallery-image">
+            </div>
+          </div>
+          <div class='column'>
+            <div class='green-column'>
+              <img src="/gallery/3.jpg" class="gallery-image">
+            </div>
+          </div>
+          <div class='column'>
+            <div class='yellow-column'>
+              <img src="/gallery/4.jpg" class="gallery-image">
+            </div>
+          </div>
+        </div>
+        <div class='row 2'>
+          <div class='column'>
+            <div class='green-column'>
+              <img src="/gallery/5.jpg" class="gallery-image">
+            </div>
+          </div>
+          <div class='column'>
+            <div class='orange-column'>
+              <img src="/gallery/6.jpg" class="gallery-image">
+            </div>
+          </div>
+          <div class='column'>
+            <div class='blue-column'>
+              <img src="/gallery/7.jpg" class="gallery-image">
+            </div>
+          </div>
+              <div class='column'>
+            <div class='green-column'>
+              <img src="/gallery/8.jpg" class="gallery-image">
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        .some-page-wrapper {
+            margin-left: 70px;
+            margin-right: 70px;
+            background: rgba(0, 0, 0, 0);
+          }
+        
+          @media (max-width: 991px) {
+            .some-page-wrapper {
+              margin-left: 0;
+              margin-right: 0;
+              background: rgba(0, 0, 0, 0);
+            }
+          }
+          
+          .row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+          }
+          
+          .column {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 0;
+            flex-wrap: wrap;
+            margin-right: 10px;
+            margin-bottom: 10px;
+          }
+        
+          @media (max-width: 991px) {
+            .column {
+              margin-right: unset;
+            }
+          }
+        
+          .orange-column {
+            background-color: orange;
+            height: 400px;
+          }
+          
+          .blue-column {
+            background-color: blue;
+            height: 400px;
+          }
+          
+          .green-column {
+            background-color: green;
+            height: 400px;
+          }
+        
+          .gallery-image {
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
+          }
+        
+          @media (max-width: 991px) {
+            .gallery-image {
+              
+            }
+          }
