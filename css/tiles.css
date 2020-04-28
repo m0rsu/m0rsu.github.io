@@ -39,6 +39,7 @@
 @media (max-width: 991px) {
   .tiles-column {
     margin-left: unset;
+   flex-direction: column; 
   }
 }
 
