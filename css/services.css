@@ -1,6 +1,3 @@
-.services {
-  
-}
 
 
 .services-container {
@@ -86,7 +83,7 @@
 
 @media (max-width: 991px) {
     .services-row {
-        flex-direction: column;
+        flex-direction: ;
         justify-content: center;
     }
 }

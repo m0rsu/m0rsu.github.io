@@ -25,7 +25,7 @@
 
 @media (max-width: 1024px) {
     .tiles-row {
-        flex-direction: column;
+        flex-direction: ;
     }
 }
 
@@ -38,7 +38,7 @@
 
 @media (max-width: 991px) {
   .tiles-column {
-    margin-left: unset;
+    margin-left: ;
   }
 }
 
