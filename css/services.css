@@ -79,6 +79,7 @@
 @media (max-width: 991px) {
     .services-row {
         flex-direction: column;
+             justify-content: center;
     }
 }
 
