@@ -10,7 +10,7 @@
 
 @media (max-width: 991px) {
     .tiles-wrapper {
-        margin-top: unset;
+        margin-top: 15px;
       }
     }
 
@@ -39,7 +39,6 @@
 @media (max-width: 991px) {
   .tiles-column {
     margin-left: unset;
-   flex-direction: column; 
   }
 }
 
@@ -53,15 +52,15 @@
 
 @media (max-width: 991px) {
     .tiles-first-column {
-        height: 350px;
-        width: 350px;
+        height: 300px;
+        width: 300px;
         margin-bottom: 20px;
       }
 }
 
 @media (max-width: 320px) {
     .tiles-first-column {
-        height: 400px;
+        height: 300px;
         width: 300px;
         margin-bottom: unset;
         margin-top: 20px;
@@ -78,15 +77,15 @@
 
 @media (max-width: 991px) {
     .tiles-second-column {
-        height: 350px;
-        width: 350px;
+        height: 300px;
+        width: 300px;
         margin-bottom: 20px;
       }
 }
 
 @media (max-width: 320px) {
     .tiles-second-column {
-        height: 400px;
+        height: 300px;
         width: 300px;
         margin-bottom: unset;
         margin-top: 20px;
@@ -104,15 +103,15 @@
 
 @media (max-width: 991px) {
     .tiles-third-column {
-        height: 350px;
-        width: 350px;
+        height: 300px;
+        width: 300px;
         margin-bottom: 20px;
       }
 }
 
 @media (max-width: 320px) {
     .tiles-third-column {
-        height: 400px;
+        height: 300px;
         width: 300px;
         margin-bottom: unset;
         margin-top: 20px;
@@ -150,3 +149,10 @@
   text-align: justify;
   font-family: "Source Sans Pro", sans-serif;
 }
+
+@media (max-width: 991px) {
+  .tiles-column-text-description {
+    font-size: 14px;
+  }
+}
+

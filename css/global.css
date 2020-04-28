@@ -11,10 +11,3 @@ body {
 }
 
 
-@media (max-width: 991px) {
-  body {
-    overflow-x: hidden;
-    width: 100%;
-  }
-}
-
