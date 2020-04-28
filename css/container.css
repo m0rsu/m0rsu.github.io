@@ -5,6 +5,14 @@
     padding: 60px 20px;
 }
 
+@media (max-width: 991px) {
+    .container {
+        width: 100%;
+        margin-top: unset;
+        
+    }
+}
+
 .container-tiles {
     width: 400px;
     max-width: 100%;
