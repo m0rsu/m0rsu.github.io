@@ -1,6 +1,3 @@
-.contact {
-}
-
 @media (max-width: 991px) {
   .contact {
     display: flex;
@@ -90,6 +87,8 @@
 @media (max-width: 991px) {
 .contact-label {
   margin-left: unset;
+  position: relative;
+  margin-top: unset;
 }
 }
 

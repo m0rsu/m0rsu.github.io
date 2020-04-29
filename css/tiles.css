@@ -38,7 +38,7 @@
 
 @media (max-width: 991px) {
   .tiles-column {
-    margin-left: ;
+    margin-left: unset;
   }
 }
 
@@ -52,8 +52,8 @@
 
 @media (max-width: 991px) {
     .tiles-first-column {
-        height: 300px;
-        width: 300px;
+        height: 350px;
+        width: 350px;
         margin-bottom: 20px;
       }
 }
@@ -77,8 +77,8 @@
 
 @media (max-width: 991px) {
     .tiles-second-column {
-        height: 300px;
-        width: 300px;
+        height: 350px;
+        width: 350px;
         margin-bottom: 20px;
       }
 }
@@ -103,8 +103,8 @@
 
 @media (max-width: 991px) {
     .tiles-third-column {
-        height: 300px;
-        width: 300px;
+        height: 350px;
+        width: 350px;
         margin-bottom: 20px;
       }
 }
