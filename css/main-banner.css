@@ -14,7 +14,7 @@
 @media (max-width: 991px) {
   .main-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("/background.jpg");
+      url("/background-mobile-width.jpg");
   }
 }
 
